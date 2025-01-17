@@ -44,3 +44,5 @@ Test the installation by running:
 ```http
   trivy version
 ```
+## Jenkins Pipeline Integration
+The pipeline script is saved in the file jenkins-pipeline-script.sh. This script defines the steps for building and securing Docker images. It outputs detailed logs for each stage, providing insights into the security checks and their results.

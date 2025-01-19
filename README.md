@@ -44,5 +44,13 @@ Test the installation by running:
 ```http
   trivy version
 ```
+
+## Hadolint
+To install Hadolint, Please pull its official docker image:
+
+```http
+  docker pull hadolint/hadolint:latest
+```
+
 ## Jenkins Pipeline Integration
 The pipeline script is saved in the file jenkins-pipeline-script.sh. This script defines the steps for building and securing Docker images. It outputs detailed logs for each stage, providing insights into the security checks and their results.
